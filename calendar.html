@@ -3,12 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel='stylesheet' href='style.css' />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <script src='lib/jquery.min.js'></script>
+  <script src='lib/jquery-ui.min.js'></script>
   <script src='lib/moment.min.js'></script>
   <script src='fullcalendar/fullcalendar.js'></script>
+  <script src='fullcalendar/scheduler.min.js'></script>
+  <script src='./scheduler.js'></script>
   <title>Employee Scheduler</title>
 </head>
 <body>
-
+    <div class="container">
+        <div id="external-events" class="card shadow padding-all-2em">
+        <div class="search-box">
+             <i class="fa fa-search"></i>
+            <input type="text" class="search-term" placeholder="Type to search for an event or to add one">
+        </div>
+           <div id='external-events-listing'>
+              <div class='fc-event task shadow'>STR invoicing</div>
+              <div class='fc-event task shadow'>CGW reconciliation</div>
+              <div class='fc-event task shadow'>PST AP</div>
+              <div class='fc-event task shadow'>STR Transfer from trust</div>
+              <div class='fc-event task shadow'>CGW Payroll</div>
+              <div class='fc-event task shadow'>STR invoicing</div>
+              <div class='fc-event task shadow'>CGW reconciliation</div>
+              <div class='fc-event task shadow'>PST AP</div>
+              <div class='fc-event task shadow'>STR Transfer from trust</div>
+              <div class='fc-event task shadow'>CGW Payroll</div>
+              <div class='fc-event task shadow'>STR invoicing</div>
+              <div class='fc-event task shadow'>CGW reconciliation</div>
+              <div class='fc-event task shadow'>PST AP</div>
+              <div class='fc-event task shadow'>STR Transfer from trust</div>
+              <div class='fc-event task shadow'>CGW Payroll</div>
+              <div class='fc-event task shadow'>STR invoicing</div>
+              <div class='fc-event task shadow'>CGW reconciliation</div>
+              <div class='fc-event task shadow'>PST AP</div>
+              <div class='fc-event task shadow'>STR Transfer from trust</div>
+              <div class='fc-event task shadow'>CGW Payroll</div>
+              <div class='fc-event task shadow'>STR invoicing</div>
+              <div class='fc-event task shadow'>CGW reconciliation</div>
+              <div class='fc-event task shadow'>PST AP</div>
+              <div class='fc-event task shadow'>STR Transfer from trust</div>
+              <div class='fc-event task shadow'>CGW Payroll</div>
+              <div class='fc-event task shadow'>STR invoicing</div>
+              <div class='fc-event task shadow'>CGW reconciliation</div>
+              <div class='fc-event task shadow'>PST AP</div>
+              <div class='fc-event task shadow'>STR Transfer from trust</div>
+            </div>
+          </div>
+        <div id='calendar' class="card shadow padding-all-2em"></div>
+    </div>
 </body>
 </html>
